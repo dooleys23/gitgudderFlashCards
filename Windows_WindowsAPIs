@@ -1,0 +1,38 @@
+# API Inspection tools
+Process Monitor (Procmon) | Real-time monitoring of file system, registry, and process/thread activity; ideal for troubleshooting application issues and observing system behavior
+Wireshark | Network protocol analyzer; used for capturing and analyzing network traffic, including API calls related to networking
+API Monitor | Tracks and displays API calls made by applications in real-time; useful for reverse engineering and debugging complex software issues
+Windows Performance Recorder (WPR) & Analyzer (WPA) | Captures detailed system and application performance data; used for diagnosing performance issues and analyzing system resource usage
+Sysinternals Suite (including Process Explorer) | Collection of advanced system utilities; Process Explorer provides detailed information about running processes, including DLLs and handles
+WinDbg | Advanced debugging tool for Windows; used for kernel-mode and user-mode debugging, crash dump analysis, and examining low-level system behavior
+Dependency Walker | Analyzes module dependencies in 32-bit and 64-bit Windows applications; helps diagnose issues with DLL loading and API resolution
+IDA Pro | Disassembler and debugger; used for reverse engineering binaries and analyzing low-level code behavior, including API usage
+API-Logger | Logs Win32 API calls made by a specific process; useful for understanding application behavior and identifying potential security issues
+Frida | Dynamic instrumentation toolkit; allows injection of scripts into black box processes to trace API calls and manipulate behavior at runtime
+
+# API Calls
+CreateFile | Opens or creates a file, directory, or I/O device
+ReadFile | Reads data from a file or I/O device
+WriteFile | Writes data to a file or I/O device
+CloseFile | Closes an open file handle
+Process Start | Initiates a new process
+Thread Create | Creates a new thread within a process
+Thread Exit | Terminates a thread
+Load Image | Loads a module (DLL or EXE) into memory
+CreateFileMapping | Creates a file mapping object for shared memory
+RegOpenKey | Opens a registry key
+RegQueryValue | Retrieves the data from a registry value
+RegSetValue | Sets the data for a registry value
+RegCreateKey | Creates a new registry key
+RegDeleteKey | Deletes a registry key
+QueryDirectory | Retrieves information about files in a directory
+SetBasicInformationFile | Modifies file attributes like creation time
+DeviceIoControl | Sends control codes to devices
+TCP Connect | Initiates a TCP connection
+TCP Send | Sends data over a TCP connection
+TCP Receive | Receives data from a TCP connection
+FileSystemControl | Sends control codes to the file system
+SetSecurityFile | Modifies the security settings of a file or directory
+QuerySecurityFile | Retrieves the security settings of a file or directory
+LockFile | Locks a region of a file for exclusive access
+UnlockFileSingle | Unlocks a previously locked region of a file
