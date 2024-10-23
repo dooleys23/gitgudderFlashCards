@@ -1,0 +1,13 @@
+
+
+
+PS C:\Users\IABoiz> dsregcmd /?
+DSREGCMD switches
+                        /? : Displays the help message for DSREGCMD
+                   /status : Displays the device join status
+               /status_old : Displays the device join status in old format
+                     /join : Schedules and monitors the Autojoin task to Hybrid Join the device
+                    /leave : Performs Hybrid Unjoin
+                    /debug : Displays debug messages
+               /refreshprt : Refreshes PRT in the CloudAP cache
+             /UpdateDevice : Update device attributes to Azure AD
